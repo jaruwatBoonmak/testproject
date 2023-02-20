@@ -1,6 +1,8 @@
 table { 
     width: 100%; 
-    border-collapse: collapse; 
+    border-collapse:separate;
+	border-spacing: 5px;
+
 }
 /* Zebra striping */
 
@@ -13,6 +15,7 @@ td, th {
     border: 1px solid #ccc; 
     text-align: center;
     font-weight: bold; 
+	border-radius: 20px;
 
 }
 
@@ -61,40 +64,31 @@ only screen and (max-width: 760px),
 	/*
 	Label the data
 	*/
-	td:nth-of-type(1):before { content: "First Name"; }
-	td:nth-of-type(2):before { content: "Last Name"; }
-	td:nth-of-type(3):before { content: "Job Title"; }
-	td:nth-of-type(4):before { content: "Favorite Color"; }
-	td:nth-of-type(5):before { content: "Wars of Trek?"; }
-	td:nth-of-type(6):before { content: "Secret Alias"; }
-	td:nth-of-type(7):before { content: "Date of Birth"; }
-	td:nth-of-type(8):before { content: "Dream Vacation City"; }
-	td:nth-of-type(9):before { content: "GPA"; }
-	td:nth-of-type(10):before { content: "Arbitrary Data"; }
-}
 
-footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #111;
-    height: auto;
-    width: 100vw;
-    padding-top: 50px;
-    color: #fff;
-    z-index: 100000;
 }
 
 #updated-time{
     color: rgb(255, 255, 255);
     font-size: 16px;
-    position: relative;
-    top: 60px;
+	position: absolute;
+	bottom: 0;
     width: 100%;
     height: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: rgba(250,250,250,0.25);
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+	#updated-time {
+	  bottom: 50px; /* adjust the bottom position for smaller screens */
+
+	}
+  }
+  
+  @media (max-width: 576px) {
+	#updated-time {
+	  bottom: 20px; /* adjust the bottom position for even smaller screens */
+	}
+  }

@@ -3,6 +3,7 @@
 		display:block !important;
 		height:auto !important;
 	}
+	
 }
 @media only screen and (max-width: 1440px) {
 	.welcome-title {
@@ -68,6 +69,10 @@
 	.about-img {
 		margin-right:15px;
 	}
+	#updated-time{
+		top: 17%;
+
+	}
 }
 @media only screen and (max-width: 1199px) {
 	#fp-nav.fp-right {
@@ -127,6 +132,10 @@
 	}
 	.menu-trigger {
 		margin:0;
+	}
+	#updated-time{
+		top: 17%;
+
 	}
 }
 @media only screen and (max-width: 991px) {
@@ -191,6 +200,10 @@
 	}
 	.contact-row {
 		padding: 42px 45px;
+	}
+	#updated-time{
+		top: 17%;
+
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -352,6 +365,10 @@
 	.project-buttons-margin {
 		margin-top: 50px;
 	}
+	#updated-time{
+		top: 17%;
+
+	}
 }
 @media only screen and (max-width: 575px) {
 	.welcome-title {
@@ -413,6 +430,10 @@
 	.client-row {
 		padding-left: 0;
 	}
+	#updated-time{
+		top: 17%;
+
+	}
 }
 @media only screen and (max-width: 460px) {
 	h4 {
@@ -421,6 +442,10 @@
 	.testimonial-content:before {
 		left: 45%;
 	}
+	#updated-time{
+		top: 17%;
+
+	}
 }
 @media only screen and (max-width: 320px) {
 	.gallery-overlay p {
@@ -428,5 +453,9 @@
 	}
 	.testimonial-content:before {
 		left: 43%;
+	}
+	#updated-time{
+		top: 17%;
+
 	}
 }
